@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/rio"
+    />
+    <TextView
+        android:paddingTop="@dimen/margen_arriba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="Instrucciones de Uso"
+        android:textColor="@color/md_blue_800"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dinámica de Roles"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="1.Debes loguearte con tu contraseña o nombre de usuario que adquiriste cuando te registraste a la aplicacion."
+
+    />
+    <TextView
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Una vez dentro de la aplicacion debes escoger un rol entre 3 posibles , Mestizo, Afrodescendiente e Indigena"
+        />
+
+</LinearLayout>

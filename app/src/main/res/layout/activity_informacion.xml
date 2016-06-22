@@ -1,0 +1,258 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sebastian.quierosercauca.controllers.InformacionActivity"
+    >
+
+    <LinearLayout
+        android:layout_marginBottom="5sp"
+        android:background="@color/md_blue_50"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:background="@drawable/coconucos"/>
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/txt_tit_ednia"
+            android:textColor="@color/md_green_400"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Etnia"/>
+        <TextView
+            android:textSize="46sp"
+            android:id="@+id/etnia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coconucos"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="5sp"
+        android:background="@color/md_blue_50"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/md_green_400"
+            android:id="@+id/txt_ubicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubicacion"/>
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/ubicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Se localizan en la zona centro- oriental del departamento del Cauca, en el municipio de Purace."/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="5sp"
+        android:background="@color/md_blue_50"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/md_green_400"
+            android:id="@+id/txt_economia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Economia"/>
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/economia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Centran su economia en la ganaderia y el cultivo de papa y cultivos de pan coger." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="5sp"
+        android:background="@color/md_blue_50"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/md_green_400"
+            android:id="@+id/txt_poblacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poblacion"/>
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/poblacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.556 personas autoreconocidad como pertenecientes al pueblo Coconuco."/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="5sp"
+        android:background="@color/md_blue_50"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/md_green_400"
+            android:id="@+id/txt_gastronomia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gastronomia"/>
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/gastronomia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXX"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="5sp"
+        android:background="@color/md_blue_50"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/md_green_400"
+            android:id="@+id/txt_cultura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cultura"/>
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/cultura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXX"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="5sp"
+        android:background="@color/md_blue_50"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/md_green_400"
+            android:id="@+id/txt_bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biodiversidad"/>
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXX"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="5sp"
+        android:background="@color/md_blue_50"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/md_green_400"
+            android:id="@+id/txt_sitios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sitios Turisticos"/>
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/sitios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parque Nacional Purace ,Agua hirviendo y Agua Tibia"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="5sp"
+        android:background="@color/md_blue_50"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/md_green_400"
+            android:id="@+id/txt_arquitectura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arquitectura e Historia"/>
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/arquitectura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXX"/>
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

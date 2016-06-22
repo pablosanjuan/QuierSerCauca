@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quierosercauca</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_txt_user">Usuario</string>
+    <string name="login_txt_pass">Contraseña</string>
+    <string name="title_activity_mapa">MapaActivity</string>
+    <string name="title_activity_informacion">InformacionActivity</string>
+</resources>

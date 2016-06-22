@@ -1,0 +1,106 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        tools:context="com.pablosanjuan.cauca.MapaActivity">
+        <ImageView
+            android:id="@+id/mapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mapa">
+        </ImageView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_below="@+id/mapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+
+                android:layout_marginBottom="5dp"
+                android:textSize="25dp"
+                android:text="Coconucos"
+                android:textColor="@color/md_white_1000"
+                android:background="@color/md_green_400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_coconuco"
+                android:layout_marginBottom="5dp"
+                android:text="Embera"
+                android:textColor="@color/md_white_1000"
+                android:background="@color/md_green_400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="@color/md_white_1000"
+                android:layout_marginBottom="5dp"
+                android:text="Eperara Siapirara"
+                android:background="@color/md_green_400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="@color/md_white_1000"
+                android:layout_marginBottom="5dp"
+                android:text="Guambiano"
+                android:background="@color/md_green_400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="@color/md_white_1000"
+                android:layout_marginBottom="5dp"
+                android:text="Guanaca"
+                android:background="@color/md_green_400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="@color/md_white_1000"
+                android:layout_marginBottom="5dp"
+                android:text="Inga"
+                android:background="@color/md_green_400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="@color/md_white_1000"
+                android:layout_marginBottom="5dp"
+                android:text="Naza"
+                android:background="@color/md_green_400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="@color/md_white_1000"
+                android:layout_marginBottom="5dp"
+                android:text="Totoro"
+                android:background="@color/md_green_400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="@color/md_white_1000"
+                android:layout_marginBottom="5dp"
+                android:text="Yanaconas"
+                android:background="@color/md_green_400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:textColor="@color/md_white_1000"
+                android:layout_marginBottom="5dp"
+                android:text="Polindara"
+                android:background="@color/md_green_400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="@color/md_white_1000"
+                android:layout_marginBottom="5dp"
+                android:text="Hambaloes"
+                android:background="@color/md_green_400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

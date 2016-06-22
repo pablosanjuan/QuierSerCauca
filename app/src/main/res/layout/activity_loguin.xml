@@ -1,0 +1,53 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   tools:context="com.example.pablosanjuan.core.controlers.Logueo"
+    android:stretchColumns="*"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_logo_size"
+        android:layout_weight="2"
+        android:background="@drawable/logo_aplicacion"/>
+
+        <EditText
+        android:id="@+id/edt_usuario"
+        android:layout_marginTop="@dimen/login_margin_top_big"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="@string/login_txt_user"/>
+       <EditText
+        android:id="@+id/edt_contraseña"
+        android:layout_marginTop="@dimen/login_margin_top_small"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_txt_pass" />
+    </LinearLayout>
+
+    <TableRow
+        android:paddingBottom="12dp">
+        <Button
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:id="@+id/btn_registro"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:textColor="@color/md_blue_800"/>
+        <Button
+            android:background="@color/md_blue_800"
+            android:id="@+id/btn_validar"
+            android:textColor="@color/md_white_1000"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:text="Ingresar"/>
+    </TableRow>
+</TableLayout>
